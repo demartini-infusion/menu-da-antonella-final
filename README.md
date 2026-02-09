@@ -2,11 +2,16 @@
 
 Um aplicativo web simples e prático com receitas BLW para a Antonella (9 meses+).
 
+## 🔗 Link do App (Acesso Online)
+**[Clique aqui para abrir o Menu da Antonella](https://demartini-infusion.github.io/menu-da-antonella-final/)**
+
+*(O link funciona em qualquer celular ou computador)*
+
+---
+
 ## Como Usar
-1.  Basta abrir o arquivo `index.html` em qualquer navegador (Chrome, Edge, Safari).
-2.  Para usar no celular da Mari:
-    - Envie os arquivos para o celular ou hospede (ex: GitHub Pages).
-    - Abra no navegador do celular.
+1.  **Online**: Clique no link acima.
+2.  **Local**: Basta abrir o arquivo `index.html` em qualquer navegador (Chrome, Edge, Safari).
 
 ## Funcionalidades
 - **Busca**: Encontre receitas por ingrediente (ex: "ovo", "banana").
