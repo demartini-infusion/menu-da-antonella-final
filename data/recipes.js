@@ -1,4 +1,4 @@
-const recipesData = [
+window.recipesData = [
     {
         "id": 1,
         "title": "Panqueca de Banana e Aveia",
