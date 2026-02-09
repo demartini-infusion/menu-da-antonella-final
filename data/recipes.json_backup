@@ -1,4 +1,4 @@
-[
+const recipesData = [
     {
         "id": 1,
         "title": "Panqueca de Banana e Aveia",
@@ -951,4 +951,4 @@
         "tips": "Divertido de segurar e comer.",
         "prep_time": "20 min"
     }
-]
+];
