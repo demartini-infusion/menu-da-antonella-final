@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Menu da Antonella 🍎</title>
+    <!-- Google Fonts: Nunito (Rounded & Friendly) -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- App Container -->
+    <div id="app" class="app-container">
+        
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1>Menu da Antonella 🍎</h1>
+                <p>Receitas BLW com amor para 9 meses+</p>
+            </div>
+        </header>
+
+        <!-- Search & Filter -->
+        <section class="search-section">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar receita (ex: banana, ovo)...">
+                <button id="searchBtn">🔍</button>
+            </div>
+            
+            <div class="filter-pills" id="categoryFilters">
+                <button class="filter-pill active" data-category="all">Tudo</button>
+                <button class="filter-pill" data-category="Café da Manhã/Lanche">Café/Lanche</button>
+                <button class="filter-pill" data-category="Almoço/Jantar">Almoço/Jantar</button>
+            </div>
+        </section>
+
+        <!-- Recipe List -->
+        <main class="recipe-list" id="recipeContainer">
+            <!-- Recipes will be injected here via JS -->
+            <div class="loading-state">
+                <p>Preparando a cozinha...</p>
+            </div>
+        </main>
+
+        <!-- Recipe Modal (Detail View) -->
+        <div id="recipeModal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-modal" id="closeModal">&times;</span>
+                <div id="modalBody">
+                    <!-- Detail content injected here -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
